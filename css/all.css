@@ -1,0 +1,149 @@
+:root{
+    --azuloscuro: #0A1A2E;
+    --azulclaro: #2C3E50;
+    --azulclarito: #252850;
+    --rojooscuro: #800026;
+    --rojooscuro2: #960000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0a1a2ef8;
+    overflow-x: hidden;
+}
+
+/** HEADER-PC*/
+.pc{
+    background-color: var(--azuloscuro);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.busqueda-pc{
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+#buscar{
+    height: 30px;
+    width: 350px;
+    border: none;
+    background-color: var(--azulclaro);
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#buscar:hover{
+    background-color: #ffffffe1;
+    color: black;
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.3);
+}
+
+#buscar::placeholder{
+    font-size: 14px;
+    font-family: "roboto";
+}
+
+#buscar:focus{
+    outline: none;
+    background-color: #ffffffe1;
+    color: black;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3) ;
+}
+
+.icono{
+    font-size: 22px;
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+
+/** NAV-PC*/
+.pc-nav{
+    background-color: #0b223d;
+    padding: 13px;
+    position: sticky;
+    top: 0;
+}
+
+.pc-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.pc-nav a{
+    text-decoration: none;
+    color: white;
+    font-family: "roboto";
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.pc-nav a:hover{
+    color: #ffffff83;
+    transition: all 0.3s ease;
+    text-decoration: underline #ffffff83;
+    text-decoration-thickness:2px;
+}   
+.a-icon{
+    position: relative;
+    right: 5px;
+    top: -1.5px;
+}
+
+/**FOOTER*/
+footer{
+    background-color: var(--azuloscuro);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.cn ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cn a{
+    text-decoration: none;
+    color: white;
+    font-family: "roboto";
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.cn a:hover{
+    color: #ffffff83;
+    transition: all 0.3s ease;
+    text-decoration: underline #ffffff83;
+    text-decoration-thickness:2px;
+}
+
+.reservado{
+    font-family: "roboto";
+    font-size: 16px;
+    margin-top: 27px;
+}
+
+hr{
+    margin: 20px;
+    color: white;
+}

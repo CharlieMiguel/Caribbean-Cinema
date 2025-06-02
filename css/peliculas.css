@@ -1,0 +1,47 @@
+.sss{
+    color: white;
+    font-family: "roboto";
+    text-align: center;
+    margin-top: 70px;
+}
+
+.pelicula{
+    width: 236.19px;
+    height: 349.91px;
+    margin: 5px;
+    margin-bottom: 40px;
+}
+
+.ii-pelicula{
+    width: 236.19px;
+    height: 349.91px;
+}
+
+.cover{
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative;
+    top: -50px;
+    height: 46px;
+    color: white;
+    opacity: 0;
+    transition: all 0.3s ease;
+    font-family: "roboto";
+    text-align: center;
+}
+
+.nombre{
+    position: relative;
+    top: 13px;
+}
+
+.pelicula:hover .cover{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.all-peliculas{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    margin-top: 130px;
+}

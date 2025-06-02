@@ -1,0 +1,84 @@
+#carrusel-img{
+    width: 99.99%;
+}
+
+.cs{
+    padding: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0,0.7);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.btn-left{
+    position: relative;
+    top: -217px;
+    left: 10px;
+}
+
+.btn-right{
+    position: relative;
+    top: -217px;
+    left: 1190px;
+}
+
+.imagenes:hover .cs{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.titulo{
+    color: white;
+    width: 270px;
+    position: relative;
+    left: 500px;
+    margin-bottom: 115px;
+    font-family: "roboto";
+    font-size: 20px;
+    z-index: -1;
+}
+
+.pelicula{
+    width: 236.19px;
+    height: 349.91px;
+    margin: 5px;
+    margin-bottom: 40px;
+}
+
+.ii-pelicula{
+    width: 236.19px;
+    height: 349.91px;
+}
+
+.cover{
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative;
+    top: -50px;
+    height: 46px;
+    color: white;
+    opacity: 0;
+    transition: all 0.3s ease;
+    font-family: "roboto";
+    text-align: center;
+}
+
+.nombre{
+    position: relative;
+    top: 13px;
+}
+
+.pelicula:hover .cover{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+}
