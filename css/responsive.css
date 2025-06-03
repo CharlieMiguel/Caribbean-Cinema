@@ -67,4 +67,8 @@
         width: 90%;
         margin: 20px auto; 
     }
+    
+    body{
+        overflow-x:hidden;
+    }
 }
