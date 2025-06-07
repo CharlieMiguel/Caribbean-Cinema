@@ -71,4 +71,7 @@
     body{
         overflow-x:hidden;
     }
+
+    .cs{
+        display:none;
 }
